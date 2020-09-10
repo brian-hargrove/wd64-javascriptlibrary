@@ -1,0 +1,23 @@
+body{
+    background-color: lightskyblue;
+    
+
+}
+h2{
+    text-align: center;
+}
+table, th, td {
+    border: 2px solid black;
+    width: 75%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+
+.movieTitle {
+    font-style: italic;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: grey; 
+    padding: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#mainTitle {
+    text-align: center;
+
+}
+.Main{
+    text-align: center;
+    color: lightgreen;
+}
+h3{
+    color: blue;
+}
+p{
+    color: red;
+    }
+.twoTruths {
+    border: 5px solid black;
+    border-radius: 15px;
+    
+}
+.truthLie {
+    display: flex;
+    justify-content: space-evenly;
+}
