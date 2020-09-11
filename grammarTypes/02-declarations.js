@@ -104,6 +104,3 @@ console.log(today, efa);
 
 // use let over var
 
-let z = 'light';
-console.log(z);
-
