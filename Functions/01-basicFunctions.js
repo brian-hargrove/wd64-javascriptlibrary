@@ -10,20 +10,20 @@ Functions are a process that we call upon to run an action
 */
 
 //  (1) (2)
-function hi() {
-    console.log('Hi!');
+// function hi() {
+//     console.log('Hi!');
 }
 // 1: keyword
 // 2: Name of the function and the parenthesis for the parameter.
 
 //  (1)     (2)     (3)
-function functionName() {
+/* function functionName() {
     //     (4)
         return value
 };
 //  (5)
 functionName()
-
+*/
 /*
 
     - 1: KEYWORD "function"
@@ -54,4 +54,28 @@ let anon = function() {
     console.log('anon function')
 }
 anon();
+
+//? Parameters
+// Allow us to accept information already declared
+
+function parameterfunc(num) {
+    console.log(num);
+}
+parameterfunc(2);
+parameterfunc(9);
+
+let returnedVal = 5;
+parameterfunc(returnedVal);
+
+let firstName = "Jane";
+let lastName = "Doe";
+
+function greeting(first, last) {
+    console.log(`Hi, ${last} ${last}! Welcome back!`);
+    console.log(`This is the first parameter: ${first}`);
+    console.log(`This is the last parameter: ${last}`);
+}
+//greeting(firstName);
+//greeting(firstName, lastName);
+greeting(firstName, lastName);
 
