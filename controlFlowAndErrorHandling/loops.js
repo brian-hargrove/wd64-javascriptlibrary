@@ -118,8 +118,3 @@ for(pos of indexArr) {
     for of loops: loops over iterable objes as an arrays and strings *strings can be accessed much in the same way as arrays.
 
 */
-
-
-
-
-

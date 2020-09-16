@@ -44,3 +44,4 @@ for (let fb=0; fb <= 100; fb++) {
 // (fb % 3 === 0 && fb % 5 === 0) ? console.log('Fizz Buzz') :
 // (fb % 5 === 0) ? console.log('Buzz') :
 // (fb % 3 === 0) ? console.log('Fizz') : console.log(fb);
+

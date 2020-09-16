@@ -85,6 +85,8 @@ console.log(`After reassining functio: ${a}`);
 
 var x = 2;
 
+
+
 function varScope() {
     var x = 4;
     if(true) {

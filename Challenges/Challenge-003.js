@@ -29,3 +29,4 @@ switch(true) {
     default:
         console.log(`Your grade of a ${grade} is an F`);
 }
+
