@@ -1,0 +1,6 @@
+.jumbotron {
+    background-image: url(./Assets/lighthouse.jpg);
+    color: red;
+    background-size: cover;
+    height: 50vh;
+}
