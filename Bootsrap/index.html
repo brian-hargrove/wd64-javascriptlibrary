@@ -41,13 +41,81 @@
       </ul>
     </div>
   </nav>
+  <!-- jumbotron -->
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-4">Bootsrap Module Walkthrough</h1>
       <p class="lead">A quick quide on how to use boostrap with my projects</p>
     </div>
   </div>
+  <!-- Table -->
+<section class="tableMovie">
+  <table class="table table-hover">
+    <thead>
+      <tr class="table-info">
+        <th scope="col"></th>
+        <th scope="col">Title</th>
+        <th scope="col">Genre</th>
+        <th scope="col">Rating</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Goldfinger</td>
+        <td>Action</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Star Wars</td>
+        <td>Sci-Fi</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Dogma</td>
+        <td>Comedy</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Happy Gilmore</td>
+        <td>Comedy</td>
+        <td>4.5</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Field of Dreams</td>
+        <td>Drama</td>
+        <td>4.5</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<section class="contactForm">
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/brian.hargrove@outlook.com" method="post">
+    <fieldset id="fs-frm-inputs">
+      <label for="full-name">Full Name</label>
+      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+      <label for="email-address">Email Address</label>
+      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+      <label for="message">Message</label>
+      <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    </fieldset>
+    <input type="submit" value="Submit">
+  </form>
 
+</section>
+<!-- Footer -->
+<footer class="list-group-item-info"> 
+  <ul class="list-group list-group-horizontal-lg">
+    <li class="list-group-item list-group-item-secondary flex-fill">Contact</li>
+    <li class="list-group-item list-group-item-secondary flex-fill">Credits</li>
+    <li class="list-group-item list-group-item-secondary flex-fill">FAQ</li>
+  </ul>
+</footer>
 
 <!--BOOTSRAP-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

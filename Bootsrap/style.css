@@ -1,6 +1,22 @@
+.navbar {
+    font-size: 20px;
+    position: flexible;
+    background-color: blue;
+    
+}
 .jumbotron {
     background-image: url(./Assets/lighthouse.jpg);
-    color: red;
-    background-size: cover;
-    height: 50vh;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    bottom: 200px;
+    background-color: blue;
+    }
+
+footer {
+    margin-top: 2em;
+    padding: .5em;
+    height: 10vh;
 }

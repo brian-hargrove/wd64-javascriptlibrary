@@ -43,7 +43,7 @@ let netflix = {
 //? DOT NOTATION
 // While we use bracket notation with arrays, we use something called DOT NOTATION for objects.
 
-console.log('All Data',netflix);
+//console.log('All Data',netflix);
 console.log('Just Season Info',netflix.season1.seasonInfo);
 // We are capable of utilizing bracket notation as well.
 console.log('Episode:',netflix.season1.seasonInfo.episodeInfo[3].episodeName);

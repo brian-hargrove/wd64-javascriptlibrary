@@ -28,7 +28,7 @@ let person3 = {
 //Option 2
 
 //  (1)     (2)         (3)
-function Person(name, age, canVote) {
+function person(name, age, canVote) {
 //  (4)    (5)   (6)    
     this.name = name;
     this.age = age;
