@@ -15,18 +15,18 @@ function fetchSpace(e) {
 
     fetch(baseURL)  // starts the process of fetching from out resource
         .then(results => {
-            // console.log(results);  // show our response
+            //console.log(results);  // show our response
             return results.json()  // this method takes in a response (results), reads to completion and returns the results as a json format
         })
         .then(json => {
-            // console.log(json)
+            console.log(json)
             displayRockets(json);
         })
 }
 
 //DISPLAY FUNCTION
 function displayRockets(data) {
-    // console.log('DisplayRocket: ', data);
+    console.log('DisplayRocket: ', data);
 
     let rockets = data.forEach(r => {
         console.log(r);
