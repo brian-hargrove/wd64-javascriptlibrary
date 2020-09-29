@@ -6,7 +6,7 @@ fetch(url)
         return results.json();
     })
     .then(function(json){
-        //console.log(json);
+        console.log(json);
         displayCharacter(json);
     })
 

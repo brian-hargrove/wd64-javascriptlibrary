@@ -27,10 +27,10 @@ nextBtn.addEventListener('click', nextPage);
 previousBtn.addEventListener('click', previousPage);
 
 function fetchResults(e) {
-    console.log(e);
+    console.log('restults:',e);
     e.preventDefault();
     url = baseURL + '?api-key=' + key + '&page=' + pageNumber + '&q=' + searchTerm.value;
-        console.log(url);
+        console.log('a:',url);
 
     if(startDate.value !=='') {
         console.log(startDate.value)
@@ -46,6 +46,7 @@ function fetchResults(e) {
         return result.json();
     }).then(function(json){
         displayResults(json);
+        console.log('info:',json);
     });
 }
 

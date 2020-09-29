@@ -65,7 +65,7 @@ for(info in city) {
 let list = ['milk', 'eggs', 'bacon', 'bread', 'bananas'];
 
 for(item in list) {
-    console.log(item);
+    //console.log(item);
     console.log(list[item]);
 };
 

@@ -5,12 +5,12 @@ fetch('https://swapi.dev/api/people')
 return response.json();    
 })
 .then(function(json) {
-    // console.log(json)
+    console.log(json)
     let people = json.results;
 
-for (p of people) {
+for (m of people) {
     let listItem = document.createElement('li');
-    listItem.innerHTML = '<p>' + p.name + '</p)';
+    listItem.innerHTML = '<p>' + m.name + '</p)';
     starWarsPeopleList.appendChild(listItem);
 }
 });
