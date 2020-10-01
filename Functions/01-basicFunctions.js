@@ -18,10 +18,10 @@ Functions are a process that we call upon to run an action
 
 //  (1)     (2)     (3)
 /* function functionName() {
-    //     (4)
+        (4)
         return value
 };
-//  (5)
+ (5)
 functionName()
 */
 /*
@@ -78,4 +78,5 @@ function greeting(first, last) {
 //greeting(firstName);
 //greeting(firstName, lastName);
 greeting(firstName, lastName);
+
 
